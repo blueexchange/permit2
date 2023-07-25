@@ -1,19 +1,19 @@
 {
-  "name": "@blueexchange/permit2",
+  "name": "@skyxexchange/permit2",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Permit2 contract",
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blueexchange/permit2.git"
+    "url": "git+https://github.com/skyxexchange/permit2.git"
   },
   "bugs": {
-    "url": "https://github.com/blueexchange/permit2/issues"
+    "url": "https://github.com/skyxexchange/permit2/issues"
   },
-  "homepage": "https://github.com/blueexchange/permit2#readme",
+  "homepage": "https://github.com/skyxexchange/permit2#readme",
   "keywords": [
-    "bluex",
+    "skyx",
     "base",
     "ethereum",
     "layer2"
@@ -22,7 +22,7 @@
     "build": "hardhat compile",
     "console": "hardhat console",
     "base:deploy": "hardhat run --network base scripts/base/deploy.ts",
-    "base-goerli:deploy": "hardhat run --network base-goerli scripts/base-goerli/deploy.ts",
+    "base-testnet:deploy": "hardhat run --network base-testnet scripts/base-testnet/deploy.ts",
     "export": "hardhat export --export-all exports/deployments.json",
     "test": "hardhat test",
     "test:coverage": "cross-env NODE_OPTIONS=\"--max-old-space-size=2048\" hardhat coverage",

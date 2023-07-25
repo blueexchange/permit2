@@ -16,7 +16,7 @@ Permit2 introduces a low-overhead, next generation token approval/meta-tx system
 
 ## Architecture
 
-Permit2 is the union of two contracts: [`AllowanceTransfer`](https://github.com/blueexchange/permit2/blob/main/src/AllowanceTransfer.sol) and [`SignatureTransfer`](https://github.com/blueexchange/permit2/blob/main/src/SignatureTransfer.sol).
+Permit2 is the union of two contracts: [`AllowanceTransfer`](https://github.com/skyxexchange/permit2/blob/main/src/AllowanceTransfer.sol) and [`SignatureTransfer`](https://github.com/skyxexchange/permit2/blob/main/src/SignatureTransfer.sol).
 
 The `SignatureTransfer` contract handles all signature-based transfers, meaning that an allowance on the token is bypassed and permissions to the spender only last for the duration of the transaction that the one-time signature is spent.
 
@@ -47,7 +47,7 @@ You will need a copy of [Foundry](https://github.com/foundry-rs/foundry) install
 ### Setup
 
 ```sh
-git clone https://github.com/blueexchange/permit2.git
+git clone https://github.com/skyxexchange/permit2.git
 cd permit2
 forge install
 ```
